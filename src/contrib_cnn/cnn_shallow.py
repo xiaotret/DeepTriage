@@ -50,7 +50,7 @@ pretrained_embedding = None
 def print_operation(t):
     print(t.op.name, ' ', t.get_shape().as_list())
 
-
+#多个size的filter间concatenate
 def conception_layer(net, filter_lists, kw, n_filters=100):
     outputs = []
 
