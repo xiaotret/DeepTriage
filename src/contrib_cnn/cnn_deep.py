@@ -41,7 +41,7 @@ filter_list = [3, 4, 5]
 def print_operation(t):
     print(t.op.name, ' ', t.get_shape().as_list())
 
-
+# 两种size的Conv+Max 依次处理
 def cnn_model(features, labels, mode):
     """2 layer ConvNet to predict from sequence of words to a class."""
     # Convert indexes of words into embeddings.
