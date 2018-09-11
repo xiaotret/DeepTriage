@@ -2,7 +2,7 @@
 import tensorflow as tf
 from functools import reduce
 
-
+# 使用各种网络提取特征，用于文本分类的代码，包含CNN，RNN等等
 class TextCNN(object):
     """
     A CNN for text classification.
